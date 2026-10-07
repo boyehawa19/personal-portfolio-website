@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hawa Boye | Portfolio</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/src/style.css">
+</head>
+<body class="bg-cream font-sans leading-relaxed text-ink">
+
+<nav id="navbar" class="fixed top-0 left-0 z-[100] flex w-full items-center justify-between gap-6 border-b border-blush/35 bg-cream/90 px-[5%] py-4 backdrop-blur-md md:px-[6%] md:py-[18px]">
+  <a href="#top" class="text-xs font-semibold tracking-[0.12em] text-ink no-underline md:text-[13px] md:tracking-[0.22em]">HAWA BOYE</a>
+  <div class="flex gap-4 md:gap-7">
+    <a href="#about" class="relative text-sm font-medium text-ink no-underline after:absolute after:-bottom-1.5 after:left-0 after:h-px after:w-full after:origin-left after:scale-x-0 after:bg-blush after:transition-transform after:duration-300 hover:after:scale-x-100">About</a>
+    <a href="#gallery" class="relative text-sm font-medium text-ink no-underline after:absolute after:-bottom-1.5 after:left-0 after:h-px after:w-full after:origin-left after:scale-x-0 after:bg-blush after:transition-transform after:duration-300 hover:after:scale-x-100">Gallery</a>
+    <a href="#contact" class="relative text-sm font-medium text-ink no-underline after:absolute after:-bottom-1.5 after:left-0 after:h-px after:w-full after:origin-left after:scale-x-0 after:bg-blush after:transition-transform after:duration-300 hover:after:scale-x-100">Contact</a>
+  </div>
+</nav>
+
+<header class="grid min-h-screen items-center gap-8 px-[5%] pt-28 pb-16 md:grid-cols-[1.1fr_0.9fr] md:gap-16 md:px-[6%] md:pt-[130px] md:pb-20" id="top">
+  <div>
+    <div class="mb-[22px] inline-block rounded-full border border-blush/55 bg-white px-3.5 py-2 text-xs font-semibold tracking-[0.18em] text-rose uppercase">Serekunda, The Gambia</div>
+    <h1 class="mb-[18px] font-display text-[clamp(40px,5vw,64px)] leading-[1.15] font-semibold">Be your own <span class="text-blush italic">kind of beautiful</span></h1>
+    <p class="max-w-[460px] text-muted">Hello, I am Hawa Boye for Baboucarr Sabou Ya.</p>
+    <div class="mt-7 flex flex-wrap gap-3">
+      <a href="#contact" class="inline-block rounded-full bg-ink px-[26px] py-[13px] text-sm font-medium text-white no-underline transition duration-200 hover:-translate-y-0.5 hover:bg-[#3a2c28]">Contact Me</a>
+      <a href="#gallery" class="inline-block rounded-full border border-ink bg-transparent px-[26px] py-[13px] text-sm font-medium text-ink no-underline transition duration-200 hover:-translate-y-0.5 hover:bg-ink hover:text-white">View Gallery</a>
+    </div>
+  </div>
+
+  <div class="mx-auto aspect-[4/5] w-full max-w-[480px] overflow-hidden rounded-[28px] shadow-[0_24px_50px_rgba(28,22,20,0.12)]">
+    <img class="block h-full w-full object-cover" src="images/my%20and%20aja%20fatou.jpeg" alt="Hawa with friends looking at a laptop">
+  </div>
+</header>
+
+<section class="grid items-center gap-8 border-y border-blush/20 bg-white px-[5%] py-16 md:grid-cols-[0.85fr_1.15fr] md:gap-16 md:px-[6%] md:py-[90px]" id="about">
+  <div class="mx-auto aspect-[3/4] w-full max-w-[420px] overflow-hidden rounded-[28px] shadow-[0_24px_50px_rgba(28,22,20,0.12)]">
+    <img class="block h-full w-full object-cover" src="images/WhatsApp%20Image%202026-10-01%20at%202.48.19%20AM.jpeg" alt="Hawa in a royal blue hijab and patterned skirt">
+  </div>
+  <div>
+    <p class="text-xs font-semibold tracking-[0.18em] text-rose uppercase">About</p>
+    <h2 class="mt-2.5 mb-4 font-display text-[clamp(32px,4vw,48px)] leading-[1.15] font-semibold">About Me</h2>
+    <p class="max-w-[460px] text-muted">I am a student of JCC Code Camp.</p>
+    <p class="mt-[18px] border-l-[3px] border-blush pl-4 text-ink"><strong>Motto:</strong> "I'm currently aFull-Stack student at JCC,Learning how to build webstes form frontend to backend. I joined JCC to turn my passion for coding into real products."
+    </p>
+  </div>
+</section>
+
+<section class="bg-cream px-[5%] py-16 md:px-[6%] md:py-[90px]" id="gallery">
+  <div class="mb-9 max-w-[520px]">
+    <p class="text-xs font-semibold tracking-[0.18em] text-rose uppercase">Looks</p>
+    <h2 class="mt-2.5 mb-4 font-display text-[clamp(32px,4vw,48px)] leading-[1.15] font-semibold">Gallery</h2>
+    <p class="max-w-[460px] text-muted">A few of my favourite photos. Tap any image to open it.</p>
+  </div>
+  <div class="gallery grid grid-cols-1 gap-[22px] md:grid-cols-3">
+    <figure class="group m-0 h-[460px] cursor-pointer overflow-hidden rounded-[28px] shadow-[0_24px_50px_rgba(28,22,20,0.12)] md:h-[420px]">
+      <img class="block h-full w-full object-cover transition duration-500 group-hover:scale-105" src="images/my%20self%20(4).jpeg" alt="Portrait of Hawa">
+    </figure>
+    <figure class="group m-0 h-[460px] cursor-pointer overflow-hidden rounded-[28px] shadow-[0_24px_50px_rgba(28,22,20,0.12)] md:h-[420px]">
+      <img class="block h-full w-full object-cover transition duration-500 group-hover:scale-105" src="images/my%20self.jpeg" alt="Hawa in a white top and green trousers">
+    </figure>
+    <figure class="group m-0 h-[460px] cursor-pointer overflow-hidden rounded-[28px] shadow-[0_24px_50px_rgba(28,22,20,0.12)] md:h-[420px]">
+      <img class="block h-full w-full object-cover transition duration-500 group-hover:scale-105" src="images/WhatsApp%20Image%202026-10-01%20at%202.48.19%20AM(1).jpeg" alt="Hawa in a styled portrait">
+    </figure>
+  </div>
+</section>
+
+<section class="mx-[5%] mb-10 rounded-[36px] bg-ink px-[8%] py-14 text-center text-white md:mx-[6%] md:mb-[70px] md:mt-2.5 md:px-[8%] md:py-20" id="contact">
+  <p class="text-xs font-semibold tracking-[0.18em] text-[#e7c4cb] uppercase">Say salam</p>
+  <h2 class="mt-2.5 mb-4 font-display text-[clamp(32px,4vw,48px)] leading-[1.15] font-semibold">Let's Connect</h2>
+  <p class="mx-auto mb-7 max-w-[420px] text-[#d7cdc8]">For collaborations, styling chats, or just to say hello.</p>
+  <a href="https://wa.me/220877673348" class="inline-block rounded-full bg-white px-[26px] py-[13px] text-sm font-medium text-ink no-underline transition duration-200 hover:-translate-y-0.5 hover:bg-[#f6e7ea]" target="_blank" rel="noopener">WhatsApp Me</a>
+</section>
+
+<footer class="px-5 pt-2 pb-9 text-center text-[13px] tracking-wide text-stone">© 2026 Hawa Boye · Serekunda</footer>
+
+<script src="js/main.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
